@@ -607,3 +607,610 @@ Searched (publishedAfter 2026-06-20T12:05:47Z): classical guitar arrangement, ac
   - Published: 2026-06-21T05:29:06Z
   - Keyword: acoustic guitar cover
 
+
+
+## Nightly search: 2026-06-29 (UTC)
+
+
+Searched (publishedAfter 2026-06-28T11:06:05Z): classical guitar arrangement, acoustic guitar cover
+
+
+- **Comfort in Every Melody | Classic Guitar Hymns for Prayer and Quiet Reflection**
+  - Channel: Abigail Whitlock
+  - URL: https://www.youtube.com/watch?v=DawVXm1HmFg
+  - Published: 2026-06-29T11:00:19Z
+  - Keyword: classical guitar arrangement
+
+- **Sarabande (In A Time Lapse) – Ludovico Einaudi | Classical Guitar Tabs &amp; Notation**
+  - Channel: Vilakshan Kandwal
+  - URL: https://www.youtube.com/watch?v=MDTHHqUU5n4
+  - Published: 2026-06-29T10:58:25Z
+  - Keyword: classical guitar arrangement
+
+- **Ständchen by Schubert Has Never Sounded This Beautiful 😍🎸 Leonardo De Gregorio 2026 Doubletop**
+  - Channel: SiccasGuitars
+  - URL: https://www.youtube.com/watch?v=OqcDo00BKI4
+  - Published: 2026-06-29T10:15:05Z
+  - Keyword: classical guitar arrangement
+
+- **J.P. Krieger – Gitar İçin Menuet | Başlangıç Seviyesi Gitar Düzenlemesi - Özkan Gülhan**
+  - Channel: Gitar Tab
+  - URL: https://www.youtube.com/watch?v=NXYw-6KGUXQ
+  - Published: 2026-06-29T10:00:06Z
+  - Keyword: classical guitar arrangement
+
+- **Imagine, Before the Next Teardrop Falls, Kiss Me Quick | Classic Country Music Timeless 60s 70s 80s**
+  - Channel: Hearthside Music
+  - URL: https://www.youtube.com/watch?v=JN3HZtyULcM
+  - Published: 2026-06-29T08:58:45Z
+  - Keyword: classical guitar arrangement
+
+- **🔴 LIVE Flamenco Chill Guitar | Romantic Latin Music Tonight**
+  - Channel: Flamenco Collective
+  - URL: https://www.youtube.com/watch?v=GbN09DnFoGo
+  - Published: 2026-06-29T08:29:29Z
+  - Keyword: classical guitar arrangement
+
+- **#guitar #cool #music #cover #funny #countingstars #classic guitar**
+  - Channel: Johnny's FM
+  - URL: https://www.youtube.com/watch?v=1TRcx8f4Bws
+  - Published: 2026-06-29T07:33:37Z
+  - Keyword: classical guitar arrangement
+
+- **Classic Guitar Blues Rock 🎶 Timeless Slow Blues Rock Music Experience**
+  - Channel: Still Point Media
+  - URL: https://www.youtube.com/watch?v=rAjvbM7uIjE
+  - Published: 2026-06-29T07:09:03Z
+  - Keyword: classical guitar arrangement
+
+- **Guitarist&#39;s Park Performance Gets Epic LA FX Twist!**
+  - Channel: Jonathan Taylor Guitar
+  - URL: https://www.youtube.com/watch?v=lr_240o-hw4
+  - Published: 2026-06-29T07:02:28Z
+  - Keyword: classical guitar arrangement
+
+- **Brazil vs Japan! #worldcup #soccer #guitar #music #classicalguitar #fyp #shorts #japan #brazil**
+  - Channel: Jcamp_Guitar
+  - URL: https://www.youtube.com/watch?v=6FtaN8u3DSk
+  - Published: 2026-06-29T06:51:24Z
+  - Keyword: classical guitar arrangement
+
+- **geometry dash - classic guitar #guitar #music #cool #cover #geonetrydashstereomadness #easytutorial**
+  - Channel: Johnny's FM
+  - URL: https://www.youtube.com/watch?v=i5QB49u1qrI
+  - Published: 2026-06-29T06:51:15Z
+  - Keyword: classical guitar arrangement
+
+- **Flamenco Spanish Instrumental Music - Soulful Guitar &amp; Arabic Oud**
+  - Channel: Stay And Haw
+  - URL: https://www.youtube.com/watch?v=6WamHz1F86M
+  - Published: 2026-06-29T06:52:09Z
+  - Keyword: classical guitar arrangement
+
+- **South Africa vs Canada!  #guitar #music #classicalguitar #fyp #shorts #worldcup #soccer #canada**
+  - Channel: Jcamp_Guitar
+  - URL: https://www.youtube.com/watch?v=SAukx2givq0
+  - Published: 2026-06-29T06:50:00Z
+  - Keyword: classical guitar arrangement
+
+- **changing my strings after 387 hours!! #guitar #music #classicalguitar #fyp #shorts #ytshorts**
+  - Channel: Jcamp_Guitar
+  - URL: https://www.youtube.com/watch?v=fqRnzlr9BI8
+  - Published: 2026-06-29T06:48:24Z
+  - Keyword: classical guitar arrangement
+
+- **Gaillarde Passemaize | Claude Gervaise 1540–1560 | Classical Guitar**
+  - Channel: Gitar Tab
+  - URL: https://www.youtube.com/watch?v=bG59KlfEgAc
+  - Published: 2026-06-29T06:13:41Z
+  - Keyword: classical guitar arrangement
+
+- **CAPRICHO ÁRABE- MINI MELODÍAS 2**
+  - Channel: Oscar Lerma
+  - URL: https://www.youtube.com/watch?v=F1lE8HigHzk
+  - Published: 2026-06-29T05:20:10Z
+  - Keyword: classical guitar arrangement
+
+- **Cedar vs Spruce 🌲Which Classical Guitar Sounds Better?🔥Full Video Out Now🎥✅ #Shorts #fyp #guitar**
+  - Channel: Grandguitarsalon
+  - URL: https://www.youtube.com/watch?v=dtuQQUg_b5c
+  - Published: 2026-06-29T03:56:18Z
+  - Keyword: classical guitar arrangement
+
+- **Zani - de Ferranti Caprice No4 Op11 | Classical Guitar Visualization**
+  - Channel: Guitar Tab Path
+  - URL: https://www.youtube.com/watch?v=Bg0o5kkRYuI
+  - Published: 2026-06-29T03:27:48Z
+  - Keyword: classical guitar arrangement
+
+- **Zani - de Ferranti Cachucha | Classical Guitar Visualization**
+  - Channel: Guitar Tab Path
+  - URL: https://www.youtube.com/watch?v=I7eCL8C-Orc
+  - Published: 2026-06-29T03:27:48Z
+  - Keyword: classical guitar arrangement
+
+- **Zani - de Ferranti Nocturne derniere pensee Weber Op9 | Classical Guitar Visualization**
+  - Channel: Guitar Tab Path
+  - URL: https://www.youtube.com/watch?v=qvdNDn0JC0w
+  - Published: 2026-06-29T03:27:48Z
+  - Keyword: classical guitar arrangement
+
+- **Zani - de Ferranti Caprice No6 Op11 | Classical Guitar Visualization**
+  - Channel: Guitar Tab Path
+  - URL: https://www.youtube.com/watch?v=pue0jfYyUwY
+  - Published: 2026-06-29T03:27:48Z
+  - Keyword: classical guitar arrangement
+
+- **In Christ Alone | Hymn on Classical Guitar with On-screen Tabs**
+  - Channel: Wade Lowrey Music
+  - URL: https://www.youtube.com/watch?v=_Rur13Drxy0
+  - Published: 2026-06-29T03:11:22Z
+  - Keyword: classical guitar arrangement
+
+- **REGINELLA #musicanapoletana #napoli #guitar #voice 4**
+  - Channel: Marco Ruviaro
+  - URL: https://www.youtube.com/watch?v=nqVYs-D9rIM
+  - Published: 2026-06-29T01:00:31Z
+  - Keyword: classical guitar arrangement
+
+- **I guess I&#39;m in love from DELTARUNE Chapter 5 but it&#39;s classical guitar**
+  - Channel: Harley Guio Guitar
+  - URL: https://www.youtube.com/watch?v=hqrAbH_xNTo
+  - Published: 2026-06-29T00:53:48Z
+  - Keyword: classical guitar arrangement
+
+- **Thanh Lí Hộp Case Đàn Guitar Giá 200 300k_Hiếu 0789633212**
+  - Channel: Hiếu Guitar Nhật
+  - URL: https://www.youtube.com/watch?v=V6fhgKGaXUs
+  - Published: 2026-06-29T00:36:32Z
+  - Keyword: classical guitar arrangement
+
+- **Neo Classical Metal Instrumental | Dark Classical Guitar Meets Metal**
+  - Channel: neo classical metal
+  - URL: https://www.youtube.com/watch?v=vH6xyWbDoCM
+  - Published: 2026-06-29T00:35:11Z
+  - Keyword: classical guitar arrangement
+
+- **Amy Winehouse, Damian Marley, B.B. King 🎤🎸 Reggae Soul Blues, Classic Guitar &amp; Island Groove 🌴**
+  - Channel: Roots Echo Studio
+  - URL: https://www.youtube.com/watch?v=ol7Ff8lN6PE
+  - Published: 2026-06-28T23:53:00Z
+  - Keyword: classical guitar arrangement
+
+- **JMG Summer 2026 30-Day Challenge - Day 29**
+  - Channel: Michelle -PSC
+  - URL: https://www.youtube.com/watch?v=XwFxP7mGy_U
+  - Published: 2026-06-28T22:59:19Z
+  - Keyword: classical guitar arrangement
+
+- **The World&#39;s Best Classical Guitar Instrumental Music, Soothing Melodies To Soothe The Mind**
+  - Channel: Dreamy Guitar Music
+  - URL: https://www.youtube.com/watch?v=jUCX4LVSo8g
+  - Published: 2026-06-28T23:00:04Z
+  - Keyword: classical guitar arrangement
+
+- **THE BLACK STUDIES for classical and acoustic guitar (piano midi render)**
+  - Channel: Fabio Selvafiorita
+  - URL: https://www.youtube.com/watch?v=b67XBHDEvq8
+  - Published: 2026-06-28T22:21:52Z
+  - Keyword: classical guitar arrangement
+
+- **Nirvana Polyphia Inspired #grunge #punk #metal #classical #shorts #viral #music**
+  - Channel: Derek Randall
+  - URL: https://www.youtube.com/watch?v=0XlfjBYaR3Y
+  - Published: 2026-06-28T22:20:31Z
+  - Keyword: classical guitar arrangement
+
+- **@Ibu Kita Kartini (Fingerstyle Guitar G)**
+  - Channel: Petrus Suryana
+  - URL: https://www.youtube.com/watch?v=-MJNE6x0DTA
+  - Published: 2026-06-28T22:19:49Z
+  - Keyword: classical guitar arrangement
+
+- **haha forgot to tune up! #classicalguitar #music #Musician #musica #guitarist**
+  - Channel: Hovhannes Simonyan
+  - URL: https://www.youtube.com/watch?v=yJJdjFHa6VI
+  - Published: 2026-06-28T22:00:29Z
+  - Keyword: classical guitar arrangement
+
+- **OVERTURE/CELTIC SUNRISE ~ Moody Classical Guitar w/Piano &amp; Viola**
+  - Channel: This Other Kingdom
+  - URL: https://www.youtube.com/watch?v=kHXuOq3VLR8
+  - Published: 2026-06-28T21:36:04Z
+  - Keyword: classical guitar arrangement
+
+- **What Happens When Vivaldi Becomes Flamenco? (Insane Result)**
+  - Channel: Baroque Beats
+  - URL: https://www.youtube.com/watch?v=WP9MjwoBLU4
+  - Published: 2026-06-28T21:06:16Z
+  - Keyword: classical guitar arrangement
+
+- **La Dolce Vita 🇮🇹 Romantic Italian Accordion &amp; Guitar | 2H Relaxing Italy Café Music**
+  - Channel: Sol & Strings
+  - URL: https://www.youtube.com/watch?v=3l6GqESFUJk
+  - Published: 2026-06-28T21:07:21Z
+  - Keyword: classical guitar arrangement
+
+- **Vivaldi&#39;s Autumn → Flamenco Fusion | An Epic Classical Transformation**
+  - Channel: Baroque Beats
+  - URL: https://www.youtube.com/watch?v=1PX3MLa-5Wc
+  - Published: 2026-06-28T21:03:08Z
+  - Keyword: classical guitar arrangement
+
+- **Shipwrecked - Dark Ambient Classical Guitar (Official Music Video)**
+  - Channel: InnerSpatial Studios
+  - URL: https://www.youtube.com/watch?v=ftbAA01m_Xo
+  - Published: 2026-06-28T21:00:46Z
+  - Keyword: classical guitar arrangement
+
+- **Samba de uma nota só (Tom Jobim &amp; Newton Mendonça) #bossanova #tomjobim #instrumental**
+  - Channel: Caminhos do Violão
+  - URL: https://www.youtube.com/watch?v=sL176FyHibo
+  - Published: 2026-06-28T20:59:05Z
+  - Keyword: classical guitar arrangement
+
+- **Brent Gordon McPike - 4. Sarabande (Suite for solo guitar)**
+  - Channel: Tomas Scholtus
+  - URL: https://www.youtube.com/watch?v=ezf9eMWee7Y
+  - Published: 2026-06-28T20:54:02Z
+  - Keyword: classical guitar arrangement
+
+- **The Descent From the Cross Music by Miguel Feijão #baroque #baroquemusic #baroqueart**
+  - Channel: Baroque Inspired Classical Guitar Shorts
+  - URL: https://www.youtube.com/watch?v=pyvXTVBWimQ
+  - Published: 2026-06-28T20:30:38Z
+  - Keyword: classical guitar arrangement
+
+- **James #patmetheny #sologuitar**
+  - Channel: Jake Reichbart
+  - URL: https://www.youtube.com/watch?v=bJKwKwiYHq4
+  - Published: 2026-06-28T20:15:12Z
+  - Keyword: classical guitar arrangement
+
+- **Long-Haired Guitarist Stuns with Classical Melodies Indoors**
+  - Channel: Jonathan Taylor Guitar
+  - URL: https://www.youtube.com/watch?v=KsqHhdzyo0I
+  - Published: 2026-06-28T19:01:39Z
+  - Keyword: classical guitar arrangement
+
+- **Neo Classical Metal Instrumental | Classical Guitar Meets Dark Metal**
+  - Channel: neo classical metal
+  - URL: https://www.youtube.com/watch?v=k0dw47O2V2s
+  - Published: 2026-06-28T18:48:01Z
+  - Keyword: classical guitar arrangement
+
+- **#classicalguitar #music #guitar #jazz #acoustic #acousticguitar #musique  #musica**
+  - Channel: JEAN-MICHEL LEMONNIER - guitariste, compositions
+  - URL: https://www.youtube.com/watch?v=ay084hgmfPY
+  - Published: 2026-06-28T18:47:08Z
+  - Keyword: classical guitar arrangement
+
+- **Pink Panther**
+  - Channel: Walt Burkett guitar
+  - URL: https://www.youtube.com/watch?v=fuJW36Ttxz0
+  - Published: 2026-06-28T18:38:06Z
+  - Keyword: classical guitar arrangement
+
+- **PROOF That Marcin Is a FRAUD**
+  - Channel: Sor Hands
+  - URL: https://www.youtube.com/watch?v=aDJwIIcK7ow
+  - Published: 2026-06-28T18:26:47Z
+  - Keyword: classical guitar arrangement
+
+- **DAY 5 of playing Minuet in G, every... single... day... #classicalmusic #classicalguitar #music**
+  - Channel: Hovhannes Simonyan
+  - URL: https://www.youtube.com/watch?v=SDogTkI3CqE
+  - Published: 2026-06-28T18:04:41Z
+  - Keyword: classical guitar arrangement
+
+- **Live music 🎶 from @BillToms  rocking the classic guitar 🎸 at Monaca community Days**
+  - Channel: James Pugh
+  - URL: https://www.youtube.com/watch?v=jjq2ODtrhDY
+  - Published: 2026-06-28T18:00:29Z
+  - Keyword: classical guitar arrangement
+
+- **Listen, Breathe &amp; Relax 🍀 | Peaceful Classical Guitar #shorts**
+  - Channel: Soulful Strings – Relaxing Classical Guitar
+  - URL: https://www.youtube.com/watch?v=qQqxbPO3GAY
+  - Published: 2026-06-28T17:59:04Z
+  - Keyword: classical guitar arrangement
+
+- **Mellow Acoustic Cover Song 😢| Soft Guitar Covers🎸 | COVER 2026 [  Stand by Me, Let Me Down Slowly ]**
+  - Channel: bestsong
+  - URL: https://www.youtube.com/watch?v=S4fwTD457Gs
+  - Published: 2026-06-29T11:00:33Z
+  - Keyword: acoustic guitar cover
+
+- **20 flight rock guitar cover :) #guitarcover #eddiecochran #paulmccartney #acousticguitar**
+  - Channel: Sunset Shimmy 🌅
+  - URL: https://www.youtube.com/watch?v=E0B_t8yhiZ4
+  - Published: 2026-06-29T10:56:12Z
+  - Keyword: acoustic guitar cover
+
+- **What is it about men - Amy Winehouse cover**
+  - Channel: Zoe Briggs
+  - URL: https://www.youtube.com/watch?v=SVgYQTNPN_E
+  - Published: 2026-06-29T10:53:34Z
+  - Keyword: acoustic guitar cover
+
+- **Soniye ❤️ | KK | Acoustic Guitar &amp; Vocal Cover | Unplugged by Digital Ritik**
+  - Channel: Ritik Jain
+  - URL: https://www.youtube.com/watch?v=LhvbNdPPpdQ
+  - Published: 2026-06-29T10:50:19Z
+  - Keyword: acoustic guitar cover
+
+- **#Xvive #XviveU8 #AcousticGuitar #GuitarCover #KotaroOshio #SomedayMyPrinceWillCome #Fingerstyle**
+  - Channel: Bora Seol
+  - URL: https://www.youtube.com/watch?v=AaOd_FquSfg
+  - Published: 2026-06-29T10:44:06Z
+  - Keyword: acoustic guitar cover
+
+- **Majboor Acoustic Guitar Cover #guitar #majboor #music #love #fyp #viral**
+  - Channel: Bhadala Symphony
+  - URL: https://www.youtube.com/watch?v=j9AZtr7rFC8
+  - Published: 2026-06-29T10:31:26Z
+  - Keyword: acoustic guitar cover
+
+- **Bon Jovi - Wanted Dead Or Alive (Guitar Cover) | Full Song Acoustic &amp; Electric**
+  - Channel: MrFertom
+  - URL: https://www.youtube.com/watch?v=Pspb8AEIYQM
+  - Published: 2026-06-29T10:26:17Z
+  - Keyword: acoustic guitar cover
+
+- **My Girl - 7 string acoustic guitar cover**
+  - Channel: Boyan Hristov
+  - URL: https://www.youtube.com/watch?v=VP5fCcvjpjc
+  - Published: 2026-06-29T10:28:08Z
+  - Keyword: acoustic guitar cover
+
+- **Everything I Own By: Bread Acoustic Guitar Cover (M&amp;C)**
+  - Channel: M&C
+  - URL: https://www.youtube.com/watch?v=wKufLeOLcPQ
+  - Published: 2026-06-29T10:24:08Z
+  - Keyword: acoustic guitar cover
+
+- **Dust in the Wind - Fingerstyle Guitar Cover #dustinthewind #guitarcover #acousticguitar #fingerstyle**
+  - Channel: Aryanartworks1979
+  - URL: https://www.youtube.com/watch?v=hwVBxVl-beI
+  - Published: 2026-06-29T10:15:36Z
+  - Keyword: acoustic guitar cover
+
+- **Stuck On You (Lyrics) - Lionel Richie | Acoustic Blues Cover | Blues Guitar Cover of Popular Songs**
+  - Channel: Velvet Highway Blues
+  - URL: https://www.youtube.com/watch?v=dQhzAQenhEM
+  - Published: 2026-06-29T10:00:18Z
+  - Keyword: acoustic guitar cover
+
+- **Siapa yg masih kagum sama lagu pak haji @RhomaIramaOfficial ini sampai sekarang?😮‍💨#dandut #cover**
+  - Channel: Orca Guitar Indonesia
+  - URL: https://www.youtube.com/watch?v=Cigc3zqVsl0
+  - Published: 2026-06-29T10:00:31Z
+  - Keyword: acoustic guitar cover
+
+- **A spooky one now. #ghostbc #cirice #GuitarCover #acousticguitar #Cover #shrots**
+  - Channel: Narcoleptic Kids
+  - URL: https://www.youtube.com/watch?v=9rB16RP1Pv4
+  - Published: 2026-06-29T09:27:08Z
+  - Keyword: acoustic guitar cover
+
+- **Maand❤️‍🩹 | Acoustic Guitar Cover | Part 1**
+  - Channel: Shadowed Being
+  - URL: https://www.youtube.com/watch?v=t0-ldBs0KbE
+  - Published: 2026-06-29T09:07:30Z
+  - Keyword: acoustic guitar cover
+
+- **Happier by Marshmello (Acoustic guitar fingerstyle cover) #guitar #guitarcover #fingerstyle**
+  - Channel: Apas Geoffrey
+  - URL: https://www.youtube.com/watch?v=lDEp_UiFfR8
+  - Published: 2026-06-29T09:00:09Z
+  - Keyword: acoustic guitar cover
+
+- **Guitar Tuổi Đá Buồn #tuoidabuon #GuitarCover #GuitarKhongLoi #NhacThuGian #guitar #guitarcover**
+  - Channel: MaiAiGuitar
+  - URL: https://www.youtube.com/watch?v=zA8YTMX-T4Q
+  - Published: 2026-06-29T09:00:07Z
+  - Keyword: acoustic guitar cover
+
+- **Tera Hone Laga Hoon ❤️ | Acoustic Cover | School Days Nostalgia 🥹🎶 #coversong**
+  - Channel: Nawab Faizi Khan
+  - URL: https://www.youtube.com/watch?v=MjLb-shalrk
+  - Published: 2026-06-29T08:58:47Z
+  - Keyword: acoustic guitar cover
+
+- **Adem banget versi ini😊 @Roy.Muhammadd @dennycaknan6996  #negoroanggin #cover**
+  - Channel: Orca Guitar Indonesia
+  - URL: https://www.youtube.com/watch?v=-uR1RZpdndk
+  - Published: 2026-06-29T09:00:17Z
+  - Keyword: acoustic guitar cover
+
+- **ОБЫЧНЫЙ МИР# — Duran Duran# Electric Guitar Cover Instrumental#**
+  - Channel: Инструментальная "Музыка без слов..."
+  - URL: https://www.youtube.com/watch?v=TXl-zJ_HHv4
+  - Published: 2026-06-29T08:40:34Z
+  - Keyword: acoustic guitar cover
+
+- **(♬) 花響 琴 - FLOAT (Acoustic Guitar Cover Short ver.) [KR/JP SUB]**
+  - Channel: ieong
+  - URL: https://www.youtube.com/watch?v=tyITXcPiqwg
+  - Published: 2026-06-29T08:37:52Z
+  - Keyword: acoustic guitar cover
+
+- **Thriller - Michael Jackson Acoustic Cover #acousticcover**
+  - Channel: Harley Vass Music
+  - URL: https://www.youtube.com/watch?v=ycVxicCOaYw
+  - Published: 2026-06-29T08:36:28Z
+  - Keyword: acoustic guitar cover
+
+- **Hai Dil Ye Mera | Arijit Singh | Acoustic Guitar Cover by Joy Kumar**
+  - Channel: Shravan Music 
+  - URL: https://www.youtube.com/watch?v=bbO4VXwD8Jc
+  - Published: 2026-06-29T08:31:33Z
+  - Keyword: acoustic guitar cover
+
+- **Hey Jude -The Beatles #heyjude #thebeatles #cover #acousticguitar #music**
+  - Channel: CrazyGuitarJourney
+  - URL: https://www.youtube.com/watch?v=MWzzlB5i4oo
+  - Published: 2026-06-29T08:15:49Z
+  - Keyword: acoustic guitar cover
+
+- **Drowned #AcousticGuitar #GuitarCover #ChillVibes #Nostalgia #ShortsMusic #Guitarist**
+  - Channel: Teo Twistingpaint
+  - URL: https://www.youtube.com/watch?v=Xgn2roSyj1w
+  - Published: 2026-06-29T08:00:24Z
+  - Keyword: acoustic guitar cover
+
+- **Main rahu ya na rahu |Armaan Malik| Raw Acoustic Guitar cover| TIV.Music #raw #guitar #cover #song**
+  - Channel: Tiv.unspoken
+  - URL: https://www.youtube.com/watch?v=-303SfPg_MI
+  - Published: 2026-06-29T07:53:32Z
+  - Keyword: acoustic guitar cover
+
+- **Thodi Der | Acoustic Guitar Cover Hindi Song| Sleepyworld | female version**
+  - Channel: RivIndia 
+  - URL: https://www.youtube.com/watch?v=voBKK4XP-RQ
+  - Published: 2026-06-29T07:28:09Z
+  - Keyword: acoustic guitar cover
+
+- **#music #newmusic #explore #singer #guitar**
+  - Channel: Josie Johnston
+  - URL: https://www.youtube.com/watch?v=g2ULAMFl3lY
+  - Published: 2026-06-29T07:13:08Z
+  - Keyword: acoustic guitar cover
+
+- **Relaxing Acoustic Guitar Music | Fingerstyle Guitar Covers &amp; Calming Instrumental Melodies**
+  - Channel: Acoustic Guitar Vibes
+  - URL: https://www.youtube.com/watch?v=RYeM3zxnwco
+  - Published: 2026-06-29T07:05:40Z
+  - Keyword: acoustic guitar cover
+
+- **Papa Kehte Hain | Guitar Cover🎸**
+  - Channel: Acoustic Kuntal
+  - URL: https://www.youtube.com/watch?v=Kz52n_ld5-U
+  - Published: 2026-06-29T07:00:38Z
+  - Keyword: acoustic guitar cover
+
+- **#acoustic #guitar #music #cover #adoreble #cat #guitarcover #cute #funny 🐋🦈🐬🫎🐳🐟🦓🦓🐈🐈🐴🐴🚗🚙🚙🚑😻😻😻😻😻**
+  - Channel: Ziqi Nachuma
+  - URL: https://www.youtube.com/watch?v=sZvstVHDlNg
+  - Published: 2026-06-29T06:56:14Z
+  - Keyword: acoustic guitar cover
+
+- **Ishq Di Fanniyar X Manjha**
+  - Channel: Lowkeystrums
+  - URL: https://www.youtube.com/watch?v=AGiV7qeSDV8
+  - Published: 2026-06-29T06:52:51Z
+  - Keyword: acoustic guitar cover
+
+- **I Believe (Cover) | Ft. Christina &amp; Kevin | English Worship Cover | Hymns Of Glory**
+  - Channel: Hymns Of Glory
+  - URL: https://www.youtube.com/watch?v=myJDuL3TrxU
+  - Published: 2026-06-29T06:48:00Z
+  - Keyword: acoustic guitar cover
+
+- **🎸 Kisi Shayar Ki Ghazal ❤️ | Guitar Cover | Soulful Voice 🎶 #Shorts**
+  - Channel: Aurora riva
+  - URL: https://www.youtube.com/watch?v=hEqYlN8sjoM
+  - Published: 2026-06-29T06:30:03Z
+  - Keyword: acoustic guitar cover
+
+- **Here&#39;s my guitar tabs version of the beautiful Telugu song &quot;Vacchitama.&quot; 💙🎸 #guitarcover**
+  - Channel: @shreyaplaysandsings
+  - URL: https://www.youtube.com/watch?v=j0HKM-FEnzc
+  - Published: 2026-06-29T06:30:39Z
+  - Keyword: acoustic guitar cover
+
+- **She discovered a new organism#funny #short #viral #trending#guitar**
+  - Channel: Hugormer Fa
+  - URL: https://www.youtube.com/watch?v=QqzsxcQgqRo
+  - Published: 2026-06-29T06:28:22Z
+  - Keyword: acoustic guitar cover
+
+- **another guitar Nightmare!!**
+  - Channel: Hooman Music Official
+  - URL: https://www.youtube.com/watch?v=IbEIFBCm8nU
+  - Published: 2026-06-29T06:26:55Z
+  - Keyword: acoustic guitar cover
+
+- **কান পেতে শোনো, হৃদয় আমার ডাকছে তোমায় | Guitar Cover | Acoustic Cover**
+  - Channel: 🎸 Sayed Guitar Academy
+  - URL: https://www.youtube.com/watch?v=F8ol8P-5PRA
+  - Published: 2026-06-29T06:23:45Z
+  - Keyword: acoustic guitar cover
+
+- **Udi Udi Guitar Tabs | Aneesh Poojari - Easy guitar tabs #shorts #guitar #udiudi #shortstory**
+  - Channel: Acoustic Jam official  ♫
+  - URL: https://www.youtube.com/watch?v=Vfbm8HLhhS8
+  - Published: 2026-06-29T06:02:52Z
+  - Keyword: acoustic guitar cover
+
+- **Menghapus Jejakmu cover #coversong #laguviral #shorts**
+  - Channel: Cover Studio Project
+  - URL: https://www.youtube.com/watch?v=MKhoHXkOd64
+  - Published: 2026-06-29T05:52:49Z
+  - Keyword: acoustic guitar cover
+
+- **Aku Ada Karena Kau Ada – Radja (Acoustic Cover) | Suara Merdu yang Bikin Gagal Move On!**
+  - Channel: Aruna Velvet
+  - URL: https://www.youtube.com/watch?v=_Stt2JWPBmM
+  - Published: 2026-06-29T05:52:56Z
+  - Keyword: acoustic guitar cover
+
+- **Mr. Monday (Short) #guitar #guitarcover #acoustic #acousticcover #acousticguitar**
+  - Channel: Strummin' Steve
+  - URL: https://www.youtube.com/watch?v=Ve3B509K-uI
+  - Published: 2026-06-29T05:49:18Z
+  - Keyword: acoustic guitar cover
+
+- **Mr. Monday #guitar #guitarcover #acoustic #acousticcover #acousticguitar **
+  - Channel: Strummin' Steve
+  - URL: https://www.youtube.com/watch?v=Fyp0_Puvlu8
+  - Published: 2026-06-29T05:45:07Z
+  - Keyword: acoustic guitar cover
+
+- **LET IT BE (With Lyrics) - THE BEATLES | Acoustic Blues Cover | Blues Guitar Cover of Popular Songs**
+  - Channel: Midnight Gravel Blues
+  - URL: https://www.youtube.com/watch?v=_xcU30xsF-E
+  - Published: 2026-06-29T05:14:32Z
+  - Keyword: acoustic guitar cover
+
+- **Agr tum sath ho ♥️🫶 #shortvideo #guitar #guitarcraft #music #bollywoodcoversongs #newvideo #cover**
+  - Channel: Tanishk_Bisht_
+  - URL: https://www.youtube.com/watch?v=UuNYafJmJuk
+  - Published: 2026-06-29T05:10:32Z
+  - Keyword: acoustic guitar cover
+
+- **RABBA RABBA || GUITAR INTRO 🎸🎸 #guitar #youtubeshorts**
+  - Channel: #Tag Guitarist Rajdeep
+  - URL: https://www.youtube.com/watch?v=-qO3jNt1T4I
+  - Published: 2026-06-29T04:58:01Z
+  - Keyword: acoustic guitar cover
+
+- **tere hawale #music #song #video #viral #guitar #acoustic #singer #soothing #like #guitarcover #sing**
+  - Channel: Tanishka Saklani
+  - URL: https://www.youtube.com/watch?v=IiCyp4nbPQA
+  - Published: 2026-06-29T04:58:11Z
+  - Keyword: acoustic guitar cover
+
+- **Road To Shambala - Three Dog Night | Acoustic Guitar Cover by Three Dog Night**
+  - Channel: kirbyscovers
+  - URL: https://www.youtube.com/watch?v=PEU0nQD8PZE
+  - Published: 2026-06-29T04:51:58Z
+  - Keyword: acoustic guitar cover
+
+- **Cho đến hôm nay ..., Mình mềm lòng xa nhau🎸| AIGuitarCover #shorts #guitarcover #nhachaymoingay**
+  - Channel: Teacher Tan
+  - URL: https://www.youtube.com/watch?v=ux7RXtqp0VA
+  - Published: 2026-06-29T04:50:55Z
+  - Keyword: acoustic guitar cover
+
+- **Dil kahe kya raaz hai jaane kya kar gaye#iloveyou #cover #coversong #guitarist #love #lovesongs #fyp**
+  - Channel: music addicted 
+  - URL: https://www.youtube.com/watch?v=O1NzEILz2w0
+  - Published: 2026-06-29T04:30:18Z
+  - Keyword: acoustic guitar cover
+
+- **Guitar Chạm Đến Trái Tim ❤️🎸 | Acoustic Studio Live #Acoustic #GuitarCover #MusicShorts #LiveSession**
+  - Channel: Đọc Giai Điệu
+  - URL: https://www.youtube.com/watch?v=jiG9WW5jX4I
+  - Published: 2026-06-29T04:29:25Z
+  - Keyword: acoustic guitar cover
