@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ギターアレンジ・トラッカー アーカイブ</title>
+<style>
+    :root{ --bg:#faf8f5; --card:#ffffff; --accent:#b5713f; --text:#3a322c; --muted:#8a7e72; }
+    *{ box-sizing:border-box; }
+    body{ margin:0; background:var(--bg); color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Noto Sans JP",sans-serif;
+      line-height:1.6; }
+    .wrap{ max-width:1100px; margin:0 auto; padding:20px 16px 60px; }
+    .back{ display:inline-block; color:var(--accent); text-decoration:none; font-size:.9rem; margin-bottom:14px; }
+    .back:hover{ text-decoration:underline; }
+    h1{ font-size:1.7rem; margin:.2em 0 .1em; color:var(--accent); }
+    .meta{ color:var(--muted); font-size:.9rem; margin-bottom:26px; }
+    .section-head{ display:flex; align-items:center; flex-wrap:wrap; gap:12px;
+      border-bottom:2px solid #ece3d8; padding-bottom:8px; margin:34px 0 18px; }
+    h2{ font-size:1.25rem; margin:0; }
+    .playall{ background:var(--accent); color:#fff; text-decoration:none; font-size:.85rem;
+      padding:6px 14px; border-radius:20px; white-space:nowrap; transition:background .15s; }
+    .playall:hover{ background:#9c5f31; }
+    .count{ color:var(--muted); font-size:.85rem; }
+    .grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:18px; }
+    .card{ background:var(--card); border-radius:12px; overflow:hidden; text-decoration:none;
+      color:inherit; box-shadow:0 1px 4px rgba(120,90,50,.08);
+      transition:transform .18s ease, box-shadow .18s ease; display:flex; flex-direction:column; }
+    .card:hover{ transform:translateY(-5px); box-shadow:0 8px 20px rgba(120,90,50,.18); }
+    .thumb{ width:100%; aspect-ratio:16/9; object-fit:cover; background:#eee; display:block; }
+    .card-body{ padding:12px 14px 16px; }
+    .card-title{ font-weight:600; font-size:.95rem; margin-bottom:6px;
+      display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+    .card-channel{ color:var(--muted); font-size:.82rem; }
+    .card-date{ color:var(--muted); font-size:.78rem; margin-top:2px; }
+    .empty{ color:var(--muted); font-style:italic; padding:8px 0; }
+    .arch-list{ list-style:none; padding:0; }
+    .arch-list li{ margin:0; }
+    .arch-list a{ display:block; padding:12px 16px; margin:8px 0; background:var(--card);
+      border-radius:10px; text-decoration:none; color:var(--text); font-weight:600;
+      box-shadow:0 1px 4px rgba(120,90,50,.08); transition:transform .15s, box-shadow .15s; }
+    .arch-list a:hover{ transform:translateY(-3px); box-shadow:0 6px 16px rgba(120,90,50,.16); color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← 最新版へ</a>
+  <h1>ギターアレンジ・トラッカー アーカイブ</h1>
+  <div class="meta">全 1 日分</div>
+  <ul class="arch-list">
+    <li><a href="archive/2026-07-21.html">2026-07-21</a></li>
+  </ul>
+</div>
+</body>
+</html>
