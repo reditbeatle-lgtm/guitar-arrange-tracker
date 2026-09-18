@@ -1,102 +1,126 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ギターアレンジ・トラッカー アーカイブ</title>
-<style>
-    :root { --bg:#faf8f5; --card:#ffffff; --accent:#b5713f; --text:#3a2f26; --muted:#8a7d70; }
-    * { box-sizing:border-box; }
-    body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Noto Sans JP",Meiryo,sans-serif; line-height:1.6; }
-    .wrap { max-width:1100px; margin:0 auto; padding:20px 16px 60px; }
-    .back { display:inline-block; margin-bottom:14px; color:var(--accent); text-decoration:none; font-size:.95rem; }
-    .back:hover { text-decoration:underline; }
-    header h1 { margin:.2em 0; font-size:1.8rem; color:var(--accent); }
-    .meta { color:var(--muted); font-size:.95rem; margin-bottom:24px; }
-    .section { margin-bottom:40px; }
-    .section-head { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; border-bottom:2px solid #e7ddd2; padding-bottom:8px; margin-bottom:18px; }
-    .section-head h2 { font-size:1.3rem; margin:0; color:var(--text); }
-    .count { color:var(--muted); font-size:.9rem; font-weight:normal; }
-    .playall { background:var(--accent); color:#fff; text-decoration:none; padding:8px 14px; border-radius:20px; font-size:.9rem; white-space:nowrap; transition:background .15s ease, transform .15s ease; }
-    .playall:hover { background:#9a5e31; transform:translateY(-1px); }
-    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:18px; }
-    .card { background:var(--card); border-radius:12px; overflow:hidden; text-decoration:none; color:inherit; box-shadow:0 1px 3px rgba(0,0,0,.08); transition:transform .18s ease, box-shadow .18s ease; display:flex; flex-direction:column; }
-    .card:hover { transform:translateY(-4px); box-shadow:0 8px 20px rgba(0,0,0,.14); }
-    .thumb { width:100%; aspect-ratio:16/9; object-fit:cover; background:#eee; display:block; }
-    .card-body { padding:12px 14px 16px; }
-    .card-title { font-weight:600; font-size:.98rem; margin-bottom:6px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
-    .card-channel { color:var(--muted); font-size:.85rem; }
-    .card-date { color:var(--muted); font-size:.8rem; margin-top:2px; }
-    .empty { color:var(--muted); font-style:italic; }
-    footer { margin-top:40px; color:var(--muted); font-size:.85rem; text-align:center; }
-    ul.arch { list-style:none; padding:0; }
-    ul.arch li { margin:0 0 10px; }
-    .arch-link { display:inline-block; background:var(--card); color:var(--accent); text-decoration:none; padding:10px 16px; border-radius:10px; box-shadow:0 1px 3px rgba(0,0,0,.08); transition:transform .15s ease, box-shadow .15s ease; font-weight:600; }
-    .arch-link:hover { transform:translateY(-2px); box-shadow:0 6px 16px rgba(0,0,0,.12); }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ギターアレンジ・トラッカー アーカイブ</title>
+  <style>
+    :root{
+      --bg:#faf8f5; --card:#ffffff; --accent:#b5713f; --text:#3a3128;
+      --muted:#8a7d6f; --border:#eae2d8;
+    }
+    *{box-sizing:border-box;}
+    body{margin:0;background:var(--bg);color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",
+      "Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+      line-height:1.6;}
+    .wrap{max-width:1100px;margin:0 auto;padding:16px;}
+    .back{display:inline-block;margin:8px 0 4px;color:var(--accent);
+      text-decoration:none;font-size:.95rem;}
+    .back:hover{text-decoration:underline;}
+    header h1{margin:.2em 0;color:var(--accent);font-size:1.8rem;}
+    .meta{color:var(--muted);font-size:.95rem;margin-bottom:1.2em;}
+    .section-head{display:flex;align-items:center;justify-content:space-between;
+      flex-wrap:wrap;gap:8px;border-bottom:2px solid var(--border);
+      margin-top:1.8em;padding-bottom:.4em;}
+    .section-head h2{margin:0;font-size:1.3rem;color:var(--text);}
+    .count{color:var(--muted);font-size:.85rem;font-weight:normal;}
+    .playall{background:var(--accent);color:#fff;text-decoration:none;
+      padding:.4em .9em;border-radius:999px;font-size:.9rem;white-space:nowrap;
+      transition:opacity .15s;}
+    .playall:hover{opacity:.85;}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
+      gap:16px;margin-top:1.2em;}
+    .card{display:flex;flex-direction:column;background:var(--card);
+      border:1px solid var(--border);border-radius:12px;overflow:hidden;
+      text-decoration:none;color:inherit;
+      transition:transform .15s ease,box-shadow .15s ease;}
+    .card:hover{transform:translateY(-4px);
+      box-shadow:0 8px 20px rgba(120,90,50,.18);}
+    .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;
+      background:#eee;}
+    .card-body{padding:10px 12px;display:flex;flex-direction:column;gap:4px;}
+    .card-title{font-weight:600;font-size:.95rem;
+      display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+      overflow:hidden;}
+    .card-channel{color:var(--accent);font-size:.85rem;}
+    .card-date{color:var(--muted);font-size:.8rem;}
+    .empty{color:var(--muted);padding:1em 0;}
+    footer{margin:3em 0 1em;color:var(--muted);font-size:.8rem;text-align:center;}
+    ul.archive-list{list-style:none;padding:0;margin-top:1.2em;}
+    ul.archive-list li{margin:0;}
+    ul.archive-list a{display:block;background:var(--card);
+      border:1px solid var(--border);border-radius:10px;padding:.8em 1em;
+      margin-bottom:10px;text-decoration:none;color:var(--accent);
+      font-weight:600;transition:transform .15s,box-shadow .15s;}
+    ul.archive-list a:hover{transform:translateY(-2px);
+      box-shadow:0 6px 16px rgba(120,90,50,.15);}
+  </style>
 </head>
 <body>
   <div class="wrap">
-    <a class="back" href="index.html">← 最新ページへ</a>
+    <a class="back" href="index.html">← 最新版へ</a>
     <header>
       <h1>ギターアレンジ・トラッカー アーカイブ</h1>
-      <div class="meta">過去のアーカイブ一覧（全53件）</div>
+      <div class="meta">過去のアーカイブ一覧（54件）</div>
     </header>
-    <ul class="arch">
-        <li><a class="arch-link" href="archive/2026-09-17.html">2026-09-17</a></li>
-        <li><a class="arch-link" href="archive/2026-09-15.html">2026-09-15</a></li>
-        <li><a class="arch-link" href="archive/2026-09-14.html">2026-09-14</a></li>
-        <li><a class="arch-link" href="archive/2026-09-12.html">2026-09-12</a></li>
-        <li><a class="arch-link" href="archive/2026-09-11.html">2026-09-11</a></li>
-        <li><a class="arch-link" href="archive/2026-09-10.html">2026-09-10</a></li>
-        <li><a class="arch-link" href="archive/2026-09-09.html">2026-09-09</a></li>
-        <li><a class="arch-link" href="archive/2026-09-08.html">2026-09-08</a></li>
-        <li><a class="arch-link" href="archive/2026-09-07.html">2026-09-07</a></li>
-        <li><a class="arch-link" href="archive/2026-09-05.html">2026-09-05</a></li>
-        <li><a class="arch-link" href="archive/2026-09-04.html">2026-09-04</a></li>
-        <li><a class="arch-link" href="archive/2026-09-03.html">2026-09-03</a></li>
-        <li><a class="arch-link" href="archive/2026-08-31.html">2026-08-31</a></li>
-        <li><a class="arch-link" href="archive/2026-08-30.html">2026-08-30</a></li>
-        <li><a class="arch-link" href="archive/2026-08-28.html">2026-08-28</a></li>
-        <li><a class="arch-link" href="archive/2026-08-27.html">2026-08-27</a></li>
-        <li><a class="arch-link" href="archive/2026-08-25.html">2026-08-25</a></li>
-        <li><a class="arch-link" href="archive/2026-08-24.html">2026-08-24</a></li>
-        <li><a class="arch-link" href="archive/2026-08-23.html">2026-08-23</a></li>
-        <li><a class="arch-link" href="archive/2026-08-22.html">2026-08-22</a></li>
-        <li><a class="arch-link" href="archive/2026-08-21.html">2026-08-21</a></li>
-        <li><a class="arch-link" href="archive/2026-08-19.html">2026-08-19</a></li>
-        <li><a class="arch-link" href="archive/2026-08-18.html">2026-08-18</a></li>
-        <li><a class="arch-link" href="archive/2026-08-17.html">2026-08-17</a></li>
-        <li><a class="arch-link" href="archive/2026-08-15.html">2026-08-15</a></li>
-        <li><a class="arch-link" href="archive/2026-08-14.html">2026-08-14</a></li>
-        <li><a class="arch-link" href="archive/2026-08-13.html">2026-08-13</a></li>
-        <li><a class="arch-link" href="archive/2026-08-12.html">2026-08-12</a></li>
-        <li><a class="arch-link" href="archive/2026-08-09.html">2026-08-09</a></li>
-        <li><a class="arch-link" href="archive/2026-08-08.html">2026-08-08</a></li>
-        <li><a class="arch-link" href="archive/2026-08-05.html">2026-08-05</a></li>
-        <li><a class="arch-link" href="archive/2026-08-04.html">2026-08-04</a></li>
-        <li><a class="arch-link" href="archive/2026-08-02.html">2026-08-02</a></li>
-        <li><a class="arch-link" href="archive/2026-07-31.html">2026-07-31</a></li>
-        <li><a class="arch-link" href="archive/2026-07-30.html">2026-07-30</a></li>
-        <li><a class="arch-link" href="archive/2026-07-27.html">2026-07-27</a></li>
-        <li><a class="arch-link" href="archive/2026-07-24.html">2026-07-24</a></li>
-        <li><a class="arch-link" href="archive/2026-07-20.html">2026-07-20</a></li>
-        <li><a class="arch-link" href="archive/2026-07-18.html">2026-07-18</a></li>
-        <li><a class="arch-link" href="archive/2026-07-17.html">2026-07-17</a></li>
-        <li><a class="arch-link" href="archive/2026-07-16.html">2026-07-16</a></li>
-        <li><a class="arch-link" href="archive/2026-07-13.html">2026-07-13</a></li>
-        <li><a class="arch-link" href="archive/2026-07-12.html">2026-07-12</a></li>
-        <li><a class="arch-link" href="archive/2026-07-08.html">2026-07-08</a></li>
-        <li><a class="arch-link" href="archive/2026-07-07.html">2026-07-07</a></li>
-        <li><a class="arch-link" href="archive/2026-07-06.html">2026-07-06</a></li>
-        <li><a class="arch-link" href="archive/2026-07-05.html">2026-07-05</a></li>
-        <li><a class="arch-link" href="archive/2026-07-04.html">2026-07-04</a></li>
-        <li><a class="arch-link" href="archive/2026-07-03.html">2026-07-03</a></li>
-        <li><a class="arch-link" href="archive/2026-07-02.html">2026-07-02</a></li>
-        <li><a class="arch-link" href="archive/2026-07-01.html">2026-07-01</a></li>
-        <li><a class="arch-link" href="archive/2026-06-30.html">2026-06-30</a></li>
-        <li><a class="arch-link" href="archive/2026-06-29.html">2026-06-29</a></li>
+    <ul class="archive-list">
+      <li><a href="archive/2026-09-18.html">2026-09-18</a></li>
+      <li><a href="archive/2026-09-17.html">2026-09-17</a></li>
+      <li><a href="archive/2026-09-15.html">2026-09-15</a></li>
+      <li><a href="archive/2026-09-14.html">2026-09-14</a></li>
+      <li><a href="archive/2026-09-12.html">2026-09-12</a></li>
+      <li><a href="archive/2026-09-11.html">2026-09-11</a></li>
+      <li><a href="archive/2026-09-10.html">2026-09-10</a></li>
+      <li><a href="archive/2026-09-09.html">2026-09-09</a></li>
+      <li><a href="archive/2026-09-08.html">2026-09-08</a></li>
+      <li><a href="archive/2026-09-07.html">2026-09-07</a></li>
+      <li><a href="archive/2026-09-05.html">2026-09-05</a></li>
+      <li><a href="archive/2026-09-04.html">2026-09-04</a></li>
+      <li><a href="archive/2026-09-03.html">2026-09-03</a></li>
+      <li><a href="archive/2026-08-31.html">2026-08-31</a></li>
+      <li><a href="archive/2026-08-30.html">2026-08-30</a></li>
+      <li><a href="archive/2026-08-28.html">2026-08-28</a></li>
+      <li><a href="archive/2026-08-27.html">2026-08-27</a></li>
+      <li><a href="archive/2026-08-25.html">2026-08-25</a></li>
+      <li><a href="archive/2026-08-24.html">2026-08-24</a></li>
+      <li><a href="archive/2026-08-23.html">2026-08-23</a></li>
+      <li><a href="archive/2026-08-22.html">2026-08-22</a></li>
+      <li><a href="archive/2026-08-21.html">2026-08-21</a></li>
+      <li><a href="archive/2026-08-19.html">2026-08-19</a></li>
+      <li><a href="archive/2026-08-18.html">2026-08-18</a></li>
+      <li><a href="archive/2026-08-17.html">2026-08-17</a></li>
+      <li><a href="archive/2026-08-15.html">2026-08-15</a></li>
+      <li><a href="archive/2026-08-14.html">2026-08-14</a></li>
+      <li><a href="archive/2026-08-13.html">2026-08-13</a></li>
+      <li><a href="archive/2026-08-12.html">2026-08-12</a></li>
+      <li><a href="archive/2026-08-09.html">2026-08-09</a></li>
+      <li><a href="archive/2026-08-08.html">2026-08-08</a></li>
+      <li><a href="archive/2026-08-05.html">2026-08-05</a></li>
+      <li><a href="archive/2026-08-04.html">2026-08-04</a></li>
+      <li><a href="archive/2026-08-02.html">2026-08-02</a></li>
+      <li><a href="archive/2026-07-31.html">2026-07-31</a></li>
+      <li><a href="archive/2026-07-30.html">2026-07-30</a></li>
+      <li><a href="archive/2026-07-27.html">2026-07-27</a></li>
+      <li><a href="archive/2026-07-24.html">2026-07-24</a></li>
+      <li><a href="archive/2026-07-20.html">2026-07-20</a></li>
+      <li><a href="archive/2026-07-18.html">2026-07-18</a></li>
+      <li><a href="archive/2026-07-17.html">2026-07-17</a></li>
+      <li><a href="archive/2026-07-16.html">2026-07-16</a></li>
+      <li><a href="archive/2026-07-13.html">2026-07-13</a></li>
+      <li><a href="archive/2026-07-12.html">2026-07-12</a></li>
+      <li><a href="archive/2026-07-08.html">2026-07-08</a></li>
+      <li><a href="archive/2026-07-07.html">2026-07-07</a></li>
+      <li><a href="archive/2026-07-06.html">2026-07-06</a></li>
+      <li><a href="archive/2026-07-05.html">2026-07-05</a></li>
+      <li><a href="archive/2026-07-04.html">2026-07-04</a></li>
+      <li><a href="archive/2026-07-03.html">2026-07-03</a></li>
+      <li><a href="archive/2026-07-02.html">2026-07-02</a></li>
+      <li><a href="archive/2026-07-01.html">2026-07-01</a></li>
+      <li><a href="archive/2026-06-30.html">2026-06-30</a></li>
+      <li><a href="archive/2026-06-29.html">2026-06-29</a></li>
     </ul>
+    <footer>YouTube Data API を利用して自動生成</footer>
   </div>
 </body>
 </html>
