@@ -47,26 +47,21 @@
     .card-date{color:var(--muted);font-size:.8rem;}
     .empty{color:var(--muted);padding:1em 0;}
     footer{margin:3em 0 1em;color:var(--muted);font-size:.8rem;text-align:center;}
+    .arclist{list-style:none;padding:0;margin:1.2em 0;}
+    .arclist li{margin:0;}
+    .arclist a{display:block;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:.7em 1em;margin-bottom:8px;color:var(--text);text-decoration:none;transition:transform .15s ease,box-shadow .15s ease;}
+    .arclist a:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(120,90,50,.15);color:var(--accent);}
   </style>
-    <style>
-    ul.archive-list{list-style:none;padding:0;margin-top:1.2em;}
-    ul.archive-list li{margin:0;}
-    ul.archive-list a{display:block;background:var(--card);
-      border:1px solid var(--border);border-radius:10px;padding:.8em 1em;
-      margin-bottom:10px;text-decoration:none;color:var(--accent);
-      font-weight:600;transition:transform .15s,box-shadow .15s;}
-    ul.archive-list a:hover{transform:translateY(-2px);
-      box-shadow:0 6px 16px rgba(120,90,50,.15);}
-    </style>
 </head>
 <body>
   <div class="wrap">
     <a class="back" href="index.html">← 最新版へ</a>
     <header>
       <h1>ギターアレンジ・トラッカー アーカイブ</h1>
-      <div class="meta">過去のアーカイブ一覧（58件）</div>
+      <div class="meta">全 59 件のアーカイブ</div>
     </header>
-    <ul class="archive-list">
+    <ul class="arclist">
+      <li><a href="archive/2026-09-23.html">2026-09-23</a></li>
       <li><a href="archive/2026-09-22.html">2026-09-22</a></li>
       <li><a href="archive/2026-09-21.html">2026-09-21</a></li>
       <li><a href="archive/2026-09-20.html">2026-09-20</a></li>
@@ -126,7 +121,7 @@
       <li><a href="archive/2026-06-30.html">2026-06-30</a></li>
       <li><a href="archive/2026-06-29.html">2026-06-29</a></li>
     </ul>
-    <footer>YouTube Data API を利用して自動生成</footer>
+    <footer>ギターアレンジ・トラッカー ／ 自動更新</footer>
   </div>
 </body>
 </html>
