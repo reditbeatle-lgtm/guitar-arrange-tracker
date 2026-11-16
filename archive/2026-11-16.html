@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ギターアレンジ・トラッカー</title>
+  <style>
+:root{
+  --bg:#faf8f5; --card:#ffffff; --accent:#b5713f; --accent-dark:#9a5e31;
+  --text:#3a3027; --muted:#8a7c6d; --border:#ece5db;
+}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif;
+  line-height:1.6;}
+.wrap{max-width:1100px;margin:0 auto;padding:16px;}
+.backlink{display:inline-block;margin:8px 0 4px;color:var(--accent);text-decoration:none;font-size:.95rem;}
+.backlink:hover{text-decoration:underline;}
+header h1{margin:.2em 0 .1em;font-size:1.9rem;color:var(--accent-dark);}
+.meta{color:var(--muted);font-size:.95rem;margin-bottom:1.2em;}
+.section-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;
+  border-bottom:2px solid var(--border);padding-bottom:8px;margin:1.6em 0 1em;}
+.section-head h2{margin:0;font-size:1.35rem;color:var(--accent-dark);}
+.playall{background:var(--accent);color:#fff;text-decoration:none;padding:8px 14px;border-radius:999px;
+  font-size:.9rem;font-weight:600;white-space:nowrap;transition:background .15s;}
+.playall:hover{background:var(--accent-dark);}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;}
+.card{display:block;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;
+  text-decoration:none;color:inherit;transition:transform .15s ease,box-shadow .15s ease;}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(140,100,60,.18);}
+.thumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#eee;}
+.card-body{padding:10px 12px 14px;}
+.card-title{font-size:.98rem;font-weight:600;margin:0 0 6px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.card-channel{color:var(--accent);font-size:.85rem;margin:0 0 2px;}
+.card-date{color:var(--muted);font-size:.8rem;margin:0;}
+.empty{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;color:var(--muted);text-align:center;}
+footer{margin:2.5em 0 1em;color:var(--muted);font-size:.8rem;text-align:center;}
+.archive-list{list-style:none;padding:0;}
+.archive-list li{background:var(--card);border:1px solid var(--border);border-radius:10px;margin-bottom:10px;}
+.archive-list a{display:block;padding:14px 18px;color:var(--accent-dark);text-decoration:none;font-weight:600;font-size:1.05rem;}
+.archive-list a:hover{background:#f3ece2;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="backlink" href="archive.html">← アーカイブ一覧へ</a>
+    <header>
+      <h1>ギターアレンジ・トラッカー</h1>
+      <p class="meta">検索日: 2026-11-16 ・ 総件数: 100 件</p>
+    </header>
+    <div class="section-head">
+      <h2>クラシックギター・アレンジ</h2>
+      <a class="playall" href="https://www.youtube.com/watch_videos?video_ids=_PGZ6MXLZ10,EnW5fR03ox8,cxBAZ1hOyJY,YKMgaTbc85c,j2Ym44aVil8,LX7AwAJEPus,HrN2SJz8GSI,HUVb01cDWjc,Bk2vu7KKvsQ,LK8m6BQ9L5g,u7dJKWizEJQ,BZzt_R-87_s,mHLzakY6SAc,2nno8_qj3fQ,NXoUs857y6s,pTPNvJfqHfQ,qBXTppY2Cnk,GZzyZFzGr9Q,3IM35LnccD4,5gmUZGr4kjU,GJXvePDSQIM,_ExmXFKHlNA,OR4Ik5TGi1M,_RrFvTe4LT0,ImhMuhqs-lY,Zkduh3Cg1FE,-wPL6i-f6cs,MjirqCv-zdE,uMLlGtRII88,EE__B9azXGM,MmulNW08U_A,1NKIfbsU8bo,Zz8Z4rxbgE0,jSuC6OD6pAc,P2KSckK3qss,kS3_ElPsp60,0RK8EXCXudc,T-oIm1y6KMQ,_sOmhZl9lh8,HTFTtGFPrYU,2deHDjH7EGg,Mf3z57EqJwY,LKi8JPxdRW8,1VcnPFjrLxY,g96zEtLWo44,jxIs3O-Gg1M,5ywo2ZxQZxA,umjUMQCsxJE,3WUNcKg6qFA,DN1DKxcvx4s" target="_blank" rel="noopener">▶ 全部まとめて再生</a>
+    </div>
+    <div class="grid">
+      <a class="card" href="https://www.youtube.com/watch?v=_PGZ6MXLZ10" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/_PGZ6MXLZ10/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">11.15.26 Mycah Kettner, Classical Guitar, Doctoral Recital</p>
+          <p class="card-channel">Rudi E. Scheidt - School of Music</p>
+          <p class="card-date">2026-11-16 10:28</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=EnW5fR03ox8" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/EnW5fR03ox8/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">TOP 50 GUITAR INSTRUMENTAL CLASSICAL - Best Classical Guitar Music 70&amp;#39;s 80&amp;#39;s - Guitar Music Relaxing</p>
+          <p class="card-channel">Calm Waves Ocean Breeze</p>
+          <p class="card-date">2026-11-16 10:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=cxBAZ1hOyJY" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/cxBAZ1hOyJY/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">If Mozart Had Been Born in Seville #ambient #music #darkfantasymusic</p>
+          <p class="card-channel">The Owl and the Wizard</p>
+          <p class="card-date">2026-11-16 09:54</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=YKMgaTbc85c" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/YKMgaTbc85c/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Sunset Desert Rock – Endless Sunset | Psychedelic Desert Rock &amp;amp; Classic Guitar</p>
+          <p class="card-channel">Sunset Desert Rock</p>
+          <p class="card-date">2026-11-16 09:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=j2Ym44aVil8" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/j2Ym44aVil8/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Golden Mediterranean Vibes 🍋 | Romantic Guitar &amp;amp; Timeless Italian Instrumental Music</p>
+          <p class="card-channel">Serenade of the Sea</p>
+          <p class="card-date">2026-11-16 09:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=LX7AwAJEPus" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/LX7AwAJEPus/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Soft Classical Guitar Music to Clear Your Mind, Relax Your Body and Sleep Peacefully</p>
+          <p class="card-channel">Haven Melody Retreat</p>
+          <p class="card-date">2026-11-16 09:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=HrN2SJz8GSI" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/HrN2SJz8GSI/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Matt Currie - Repertoire Guitar - Classical Guitarist Gold Coast - Entertainers Australia</p>
+          <p class="card-channel">Entertainers Australia</p>
+          <p class="card-date">2026-11-16 08:56</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=HUVb01cDWjc" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/HUVb01cDWjc/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Recognize this melody?  👇  - Guitar Music 70</p>
+          <p class="card-channel">AI Video Lab</p>
+          <p class="card-date">2026-11-16 08:17</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=Bk2vu7KKvsQ" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/Bk2vu7KKvsQ/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Romantic Bossa | Breathy Bansuri &amp;amp; Nylon Guitar | Beautiful Brazilian Instrumental Music</p>
+          <p class="card-channel">New Age AI Music</p>
+          <p class="card-date">2026-11-16 07:25</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=LK8m6BQ9L5g" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/LK8m6BQ9L5g/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Relaxing Piano &amp;amp; Guitar Music for a Quiet Night (1 Hour) — A Journey Without Leaving Home</p>
+          <p class="card-channel">Everlento Music</p>
+          <p class="card-date">2026-11-16 06:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=u7dJKWizEJQ" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/u7dJKWizEJQ/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Spanish Guitar Masterpieces 🎶 The Most Beautiful Flamenco Guitar Music You Must Hear Today</p>
+          <p class="card-channel">Casa del Flamenco</p>
+          <p class="card-date">2026-11-16 05:30</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=BZzt_R-87_s" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/BZzt_R-87_s/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Classical Guitar Solo in a Dark Studio</p>
+          <p class="card-channel">Guitar Solo</p>
+          <p class="card-date">2026-11-16 05:20</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=mHLzakY6SAc" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/mHLzakY6SAc/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Catholic Sacred Classics | 12 Timeless Masterpieces on Solo Classical Guitar</p>
+          <p class="card-channel">FIAT Studio</p>
+          <p class="card-date">2026-11-16 04:48</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=2nno8_qj3fQ" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/2nno8_qj3fQ/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">🎻 Elegant &amp;amp; Noble: The First Noel for Cello and Guitar! #holidaymusic #sheetmusic</p>
+          <p class="card-channel">Guilherme Facchetti Arrangements</p>
+          <p class="card-date">2026-11-16 03:15</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=NXoUs857y6s" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/NXoUs857y6s/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Acoustic Guitar inspired by Spanish Music</p>
+          <p class="card-channel">Classical Guitar Retreat</p>
+          <p class="card-date">2026-11-16 03:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=pTPNvJfqHfQ" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/pTPNvJfqHfQ/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">The First Noel - Arranged for Violoncello and Classical Guitar.</p>
+          <p class="card-channel">Guilherme Facchetti Arrangements</p>
+          <p class="card-date">2026-11-16 03:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=qBXTppY2Cnk" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/qBXTppY2Cnk/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Can’t Find My Way Home (Blind Faith) | Eric Henderson on Classical Guitar</p>
+          <p class="card-channel">Eric Henderson</p>
+          <p class="card-date">2026-11-16 01:30</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=GZzyZFzGr9Q" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/GZzyZFzGr9Q/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Melodia de uma noite Part 2</p>
+          <p class="card-channel">Tom Brown</p>
+          <p class="card-date">2026-11-16 00:55</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=3IM35LnccD4" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/3IM35LnccD4/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Julia Florida Agustín Barrios Mangoré  #classicalguitar #guitarraclásica</p>
+          <p class="card-channel">Alexis Escabi Guitar</p>
+          <p class="card-date">2026-11-16 00:50</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=5gmUZGr4kjU" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/5gmUZGr4kjU/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Powerful Lady Blues Rock | Soulful Vocals and Classic Guitar</p>
+          <p class="card-channel">Udin Blues</p>
+          <p class="card-date">2026-11-16 00:49</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=GJXvePDSQIM" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/GJXvePDSQIM/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Adiós Muchachos  (Carlos Gardel) | Classical Guitar  (WITH TABS)</p>
+          <p class="card-channel">Alejandro Aguanta - Guitarist</p>
+          <p class="card-date">2026-11-16 00:19</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=_ExmXFKHlNA" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/_ExmXFKHlNA/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">A friend showed me this piece when I was 16</p>
+          <p class="card-channel">Andre R Souza</p>
+          <p class="card-date">2026-11-16 00:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=OR4Ik5TGi1M" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/OR4Ik5TGi1M/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">🎸 Classical Guitar at CHU CHOA Coffee #5 ☕ | Guitar Practice &amp;amp; Relaxing Music | HVTQ Official🎶 |  🌿✨</p>
+          <p class="card-channel">Huynh Van Thanh Quan Official</p>
+          <p class="card-date">2026-11-16 00:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=_RrFvTe4LT0" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/_RrFvTe4LT0/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">TOP GUITAR MUSIC BEAUTIFUL - Romantic Classical Guitar Love Songs - Relaxing Instrumental Music</p>
+          <p class="card-channel">Serenity Strings</p>
+          <p class="card-date">2026-11-15 23:45</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=ImhMuhqs-lY" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/ImhMuhqs-lY/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">lead 17 fret keep yourself alive queen</p>
+          <p class="card-channel">Soundhole Sidewinder</p>
+          <p class="card-date">2026-11-15 23:31</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=Zkduh3Cg1FE" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/Zkduh3Cg1FE/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Pachelbel&amp;#39;s Canon – Hammer Dulcimer &amp;amp; Classical Guitar - Miller-Rowe Consort Live 04</p>
+          <p class="card-channel">Miller - Rowe Consort</p>
+          <p class="card-date">2026-11-15 23:30</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=-wPL6i-f6cs" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/-wPL6i-f6cs/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Best Blues Rock Music 🎸 Classic Guitar Mix, Soulful Blues &amp;amp; Legendary Guitar Solos</p>
+          <p class="card-channel">Whiskey Soul Blues</p>
+          <p class="card-date">2026-11-15 23:25</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=MjirqCv-zdE" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/MjirqCv-zdE/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Torna a Sorriento C  #guitar #guitarist #guitarcourse #guitarsolo #classicalguitar #classicalmusic</p>
+          <p class="card-channel">Lianto Tjahjoputro</p>
+          <p class="card-date">2026-11-15 23:22</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=uMLlGtRII88" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/uMLlGtRII88/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Torna a Sorriento B  #guitar  #guitarist #classicalmusic #guitarcourse #guitarsolo #guitarlesson</p>
+          <p class="card-channel">Lianto Tjahjoputro</p>
+          <p class="card-date">2026-11-15 23:17</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=EE__B9azXGM" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/EE__B9azXGM/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Torna a Sorriento A #guitar #guitarcourse #guitarsolo #guitarist #classicalguitar #classicalmusic</p>
+          <p class="card-channel">Lianto Tjahjoputro</p>
+          <p class="card-date">2026-11-15 23:10</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=MmulNW08U_A" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/MmulNW08U_A/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Peaceful Afternoon: 1 Hour of Soft Classical Guitar Music for Studying and Reading</p>
+          <p class="card-channel">Nylon Strings &amp; Symphony</p>
+          <p class="card-date">2026-11-15 23:05</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=1NKIfbsU8bo" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/1NKIfbsU8bo/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Classic Instrumental Music Brings A Feeling Of Deep Relaxation, Smooth Guitar Songs</p>
+          <p class="card-channel">Vintage Guitar Romance</p>
+          <p class="card-date">2026-11-15 23:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=Zz8Z4rxbgE0" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/Zz8Z4rxbgE0/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Romantic Flamenco 🌹 Beautiful Spanish Guitar Music for Love, Relaxation &amp;amp; Dreaming</p>
+          <p class="card-channel">ByU Andalus</p>
+          <p class="card-date">2026-11-15 23:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=jSuC6OD6pAc" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/jSuC6OD6pAc/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Paganini, Sonata Op.3 No.6 in E Minor - Classical Guitar</p>
+          <p class="card-channel">Dien Le Guitar Pro</p>
+          <p class="card-date">2026-11-15 23:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=P2KSckK3qss" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/P2KSckK3qss/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Deep Country Guitar Blues – Smooth, Soulful &amp;amp; Relaxing Blues Collection</p>
+          <p class="card-channel">INSTRUMENTAL MUSIC</p>
+          <p class="card-date">2026-11-15 22:54</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=kS3_ElPsp60" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/kS3_ElPsp60/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">The 2027 Guitar Studio International Classical Guitar Competition - Nattakarn Kijrattanakarn</p>
+          <p class="card-channel">Teerut Guitar</p>
+          <p class="card-date">2026-11-15 22:48</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=0RK8EXCXudc" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/0RK8EXCXudc/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Misty</p>
+          <p class="card-channel">Joe V. Guitar</p>
+          <p class="card-date">2026-11-15 22:39</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=T-oIm1y6KMQ" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/T-oIm1y6KMQ/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Best Blues Rock Music 🎸 Classic Guitar Mix, Soulful Blues &amp;amp; Legendary Guitar Solos</p>
+          <p class="card-channel">Whiskey Soul Blues</p>
+          <p class="card-date">2026-11-15 22:38</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=_sOmhZl9lh8" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/_sOmhZl9lh8/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">R. Rhodes Dee OO.</p>
+          <p class="card-channel">Ascend Music </p>
+          <p class="card-date">2026-11-15 22:35</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=HTFTtGFPrYU" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/HTFTtGFPrYU/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Golden Sand Finds Its Rhythm ✨ Satisfying Guitar #shorts</p>
+          <p class="card-channel">PlernLoop</p>
+          <p class="card-date">2026-11-15 22:28</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=2deHDjH7EGg" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/2deHDjH7EGg/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">10,000 Reasons (Bless The Lord) –  | Jonas Myrin | Matt Redman Fingerstyle guitar cover</p>
+          <p class="card-channel">GuitarerroKunuhay</p>
+          <p class="card-date">2026-11-15 22:19</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=Mf3z57EqJwY" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/Mf3z57EqJwY/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">When Christmas Comes to Town(Polar Express) -classical guitar-Christmas music for classical guitar </p>
+          <p class="card-channel">PanagosThodorisClassicalGuitar</p>
+          <p class="card-date">2026-11-15 22:12</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=LKi8JPxdRW8" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/LKi8JPxdRW8/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">An old guitar, an open road and a heart forever free. 🤠🎸 #OutlawCountry</p>
+          <p class="card-channel">Bourbon&amp;Blues</p>
+          <p class="card-date">2026-11-15 22:04</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=1VcnPFjrLxY" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/1VcnPFjrLxY/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Nirvana&amp;#39;s &amp;quot;Lithium&amp;quot; on Classical Guitar</p>
+          <p class="card-channel">Tiny Desk Texas </p>
+          <p class="card-date">2026-11-15 22:04</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=g96zEtLWo44" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/g96zEtLWo44/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Classical Guitar &amp;amp; Violin Lo-Fi 🎻 | Sad, Relaxing &amp;amp; Emotional Music #Shorts #sedona</p>
+          <p class="card-channel">Yellow Amp Instrumentals</p>
+          <p class="card-date">2026-11-15 22:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=jxIs3O-Gg1M" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/jxIs3O-Gg1M/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Harry Potter: Lily&amp;#39;s Theme | Fingerstyle Guitar + TAB</p>
+          <p class="card-channel">Evan Handyside</p>
+          <p class="card-date">2026-11-15 21:51</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=5ywo2ZxQZxA" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/5ywo2ZxQZxA/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">&amp;quot;Feliz Navidad&amp;quot; (Jose Feliciano) #guitar #music #classic #guitarcover</p>
+          <p class="card-channel">jstringer213</p>
+          <p class="card-date">2026-11-15 21:40</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=umjUMQCsxJE" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/umjUMQCsxJE/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">&amp;quot;Feliz Navidad&amp;quot; (Jose Feliciano) guitar cover #guitar #music #classic</p>
+          <p class="card-channel">jstringer213</p>
+          <p class="card-date">2026-11-15 21:31</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=3WUNcKg6qFA" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/3WUNcKg6qFA/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">The Classical Guitar Music That Inspired &amp;quot;Blackbird&amp;quot;</p>
+          <p class="card-channel">Rob Sheffer</p>
+          <p class="card-date">2026-11-15 21:20</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=DN1DKxcvx4s" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/DN1DKxcvx4s/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">This Song Is Pure Magic | All the Things You Are 🎸</p>
+          <p class="card-channel">Emanuel Hedberg</p>
+          <p class="card-date">2026-11-15 21:19</p>
+        </div>
+      </a>
+    </div>
+    <div class="section-head">
+      <h2>アコースティックギター・カバー</h2>
+      <a class="playall" href="https://www.youtube.com/watch_videos?video_ids=hvZaj5-wQsE,RKbwHruVR1Q,qx4H_q4gMR8,iBX-0BBJypY,R0hpTTlOPxc,mOhU6KnQsHY,3uqh_bRW2xg,QXbihtzAmdA,CbLpk9Eh53Q,EQ7mvR1YlVU,BDdelGJYdXs,wM5XKjP1zgA,0tYs2i8ZyDQ,WAtJJnRxQLs,Ci-lGg4cMmw,zXzuyFAofxw,26vNOUMCVIE,Fm6czaP1pRs,XsyVQPNuZJM,4HkxIcwfjuw,xBu38TXawLw,MoBbN8r843g,vc7ehCImX2Y,BrPpxdGoSY4,NefffScysYs,19b6BM4_oz4,6WTPq6ToWPg,5jOc4Yd_gzA,FqHjRI2KTbE,jF55Cm8xInw,7lUsDDDFcbc,7NQqlq-RXPY,5-SjaFFCIzY,nLVsFyVPDrw,2CSMGgu5vpU,yYUr0BsWoiw,x1_IN-q30sU,pEx5OpzOdOw,cQllnz32HNc,GlItA9sJLEE,Uxv9ZhAnvko,XrCAiTSHsHU,5v6pcqStGjI,Kkz4Rh5WIYM,WPkg1IdLjgc,54264tR5xrM,s_mAu5KtDsQ,vsiXt56yOTA,XYpld2Ujia8,Fowlu7KxPYI" target="_blank" rel="noopener">▶ 全部まとめて再生</a>
+    </div>
+    <div class="grid">
+      <a class="card" href="https://www.youtube.com/watch?v=hvZaj5-wQsE" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/hvZaj5-wQsE/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Gitar akustik Bromo  BAA8S ready di filosofi gitar</p>
+          <p class="card-channel">Filosofi Gitar</p>
+          <p class="card-date">2026-11-16 11:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=RKbwHruVR1Q" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/RKbwHruVR1Q/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">C’est La Vie by Bewitched #acoustic #guitar #cover</p>
+          <p class="card-channel">Jimmy E Hunt</p>
+          <p class="card-date">2026-11-16 11:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=qx4H_q4gMR8" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/qx4H_q4gMR8/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">🎸이세계아이돌 (ISEGYE IDOL) - REBELS l Guitar Cover (+TAB) l Guitar Tutorial l 기타커버</p>
+          <p class="card-channel">히츠 온 기타 | Hits on Guitar </p>
+          <p class="card-date">2026-11-16 11:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=iBX-0BBJypY" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/iBX-0BBJypY/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Darkhaast Guitar Tune | Arijit Singh | Shivaay (Guitar Cover) #shorts #viral #trending</p>
+          <p class="card-channel">Evil Acoustics </p>
+          <p class="card-date">2026-11-16 10:30</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=R0hpTTlOPxc" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/R0hpTTlOPxc/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Pink Floyd - Wish You Were Here (Acoustic Guitar Solo Cover) #shorts #pinkfloyd #davidgilmour</p>
+          <p class="card-channel">MrHowlinwolf76</p>
+          <p class="card-date">2026-11-16 10:27</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=mOhU6KnQsHY" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/mOhU6KnQsHY/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Sajde | Guitar Cover</p>
+          <p class="card-channel">Tooconnect</p>
+          <p class="card-date">2026-11-16 10:14</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=3uqh_bRW2xg" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/3uqh_bRW2xg/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Slipknot - Me Inside (acoustic version) акустика #music #mashup #guitar #slipknot #guitarcover</p>
+          <p class="card-channel">Дима Кутенев</p>
+          <p class="card-date">2026-11-16 09:57</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=QXbihtzAmdA" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/QXbihtzAmdA/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Ada yang tau ini melodi lagu apa #shorts #guitarcover #acoutic #fyp</p>
+          <p class="card-channel">Ramdan Musik</p>
+          <p class="card-date">2026-11-16 09:17</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=CbLpk9Eh53Q" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/CbLpk9Eh53Q/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Zombie – The Cranberries 🎸 | Guitar Cover | Iconic Alternative Rock Riff | ADYNR #guitartutorial</p>
+          <p class="card-channel">Adynr Guitar Lesson</p>
+          <p class="card-date">2026-11-16 09:05</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=EQ7mvR1YlVU" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/EQ7mvR1YlVU/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Let It Be – The Beatles | Acoustic Guitar Cover by Lambert</p>
+          <p class="card-channel">LAMBERT</p>
+          <p class="card-date">2026-11-16 09:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=BDdelGJYdXs" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/BDdelGJYdXs/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Vừa Đi Vừa Khóc, Quên Người Đã Quá Yêu - Tú Na | Những Bản Acoustic TRIỆU VIEW Hay Nhất Hiện Nay</p>
+          <p class="card-channel">Guitar Cover</p>
+          <p class="card-date">2026-11-16 09:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=wM5XKjP1zgA" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/wM5XKjP1zgA/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Dilruba Dilnasheen - Guitar Cover | Rito Riba | Acoustic Instrumental #guitarcover #new #viral</p>
+          <p class="card-channel">explore_own</p>
+          <p class="card-date">2026-11-16 08:52</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=0tYs2i8ZyDQ" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/0tYs2i8ZyDQ/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">If 10,000 Reasons (Bless The Lord) has an acoustic solo... #acousticguitar #cover #worshipmusic</p>
+          <p class="card-channel">Storm - Worship Guitarist</p>
+          <p class="card-date">2026-11-16 08:48</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=WAtJJnRxQLs" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/WAtJJnRxQLs/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Phir Mohabbat | Guitar Cover</p>
+          <p class="card-channel">Tooconnect</p>
+          <p class="card-date">2026-11-16 08:15</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=Ci-lGg4cMmw" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/Ci-lGg4cMmw/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">just give me a reason ( cover. ) #cover #justgivemeareason #guitarcover #acoustic</p>
+          <p class="card-channel">AJ08X</p>
+          <p class="card-date">2026-11-16 08:07</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=zXzuyFAofxw" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/zXzuyFAofxw/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">বন্ধু আমার.একটি মিউজিক গান.#music #song #shorts #video#trending</p>
+          <p class="card-channel">Sk Music.S.S</p>
+          <p class="card-date">2026-11-16 07:44</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=26vNOUMCVIE" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/26vNOUMCVIE/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Phir Se ❤️🎸 | Soulful Acoustic Cover | Just Voice &amp;amp; Guitar #Shorts</p>
+          <p class="card-channel">Prashant.Strums</p>
+          <p class="card-date">2026-11-16 07:22</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=Fm6czaP1pRs" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/Fm6czaP1pRs/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Maya - Zubeen Garg | Acoustic Guitar Cover - Rupjyoti Kalita </p>
+          <p class="card-channel">Rupjyoti Kalita</p>
+          <p class="card-date">2026-11-16 07:07</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=XsyVQPNuZJM" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/XsyVQPNuZJM/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">TITLE:Crow – Jimsen King | Part 2 Guitar Cover 🎸 | Post-Intro Section | Acoustic Guitar</p>
+          <p class="card-channel">KAUSHIK </p>
+          <p class="card-date">2026-11-16 07:06</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=4HkxIcwfjuw" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/4HkxIcwfjuw/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">I MISS WHO I WAS - ACOUSTIC Relaxing Guitar Covers 🎸 ACOUSTIC PLAYLIST 🎸</p>
+          <p class="card-channel">Playlist Akustik Cover</p>
+          <p class="card-date">2026-11-16 07:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=xBu38TXawLw" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/xBu38TXawLw/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">​Matchbox Twenty – Bent (Raw Acoustic Guitar Cover) #robthomas #latenightmusic #acousticvibes</p>
+          <p class="card-channel">Renov</p>
+          <p class="card-date">2026-11-16 07:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=MoBbN8r843g" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/MoBbN8r843g/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Perfect Pair by Beabadoobee #acousticguitar #fingerstyle #guitar #music #guitarcover #cover</p>
+          <p class="card-channel">Starzz</p>
+          <p class="card-date">2026-11-16 06:46</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=vc7ehCImX2Y" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/vc7ehCImX2Y/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Pera Athmayaka (පෙර ආත්මයක) Sinhala Classical Guitar Cover </p>
+          <p class="card-channel">SHALY MUSIC LAB</p>
+          <p class="card-date">2026-11-16 06:24</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=BrPpxdGoSY4" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/BrPpxdGoSY4/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Aaraam De Tu Mujhe | Guitar Cover</p>
+          <p class="card-channel">Tooconnect</p>
+          <p class="card-date">2026-11-16 06:13</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=NefffScysYs" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/NefffScysYs/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Aadat Guitar Cover 🎸 | Jal | Atif Aslam | Acoustic Guitar Cover | Krish Melody@krishmelody8 </p>
+          <p class="card-channel">💕KRISH MELODY💕</p>
+          <p class="card-date">2026-11-16 06:11</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=19b6BM4_oz4" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/19b6BM4_oz4/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Gitar murah cocok untuk pemula Gitar merek artisan harga murah Gitar akustik murah #gitarcover</p>
+          <p class="card-channel">Andik Setiyo Handoko</p>
+          <p class="card-date">2026-11-16 05:57</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=6WTPq6ToWPg" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/6WTPq6ToWPg/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">never going back again guitar cover #acousticguitar #guitarcover #shorts #fyp</p>
+          <p class="card-channel">NOCTECHO</p>
+          <p class="card-date">2026-11-16 05:55</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=5jOc4Yd_gzA" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/5jOc4Yd_gzA/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Aaj Tujhse Jo Kehna Hai (Guitar Cover) 🎸 | Juarez Acoustic Guitar Vibes #guitarsolo</p>
+          <p class="card-channel">☯𝑅𝒶𝒻𝓉𝒶𝓇 𝑅𝒶𝒿𝒶 ★ᴮᴼˢˢ᭄</p>
+          <p class="card-date">2026-11-16 05:47</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=FqHjRI2KTbE" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/FqHjRI2KTbE/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Lagu Jawa Sampai ke Filipina #fypシ゚viral #cintabudaya</p>
+          <p class="card-channel">Bule Santun</p>
+          <p class="card-date">2026-11-16 05:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=jF55Cm8xInw" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/jF55Cm8xInw/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">The Blessing - Guitar Cover - Full playthrough</p>
+          <p class="card-channel">His Amazing Guitar and Ukulele Songs</p>
+          <p class="card-date">2026-11-16 05:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=7lUsDDDFcbc" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/7lUsDDDFcbc/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Sultan Of Swings #guitar #guitarhouse #guitarcover</p>
+          <p class="card-channel">Chords Music</p>
+          <p class="card-date">2026-11-16 05:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=7NQqlq-RXPY" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/7NQqlq-RXPY/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Baatein Ye Kabhi Na | Acoustic Guitar Cover 🎸❤️✨#BaateinYeKabhiNa #GuitarCover  #YouTubeShorts</p>
+          <p class="card-channel">Nitin</p>
+          <p class="card-date">2026-11-16 04:56</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=5-SjaFFCIzY" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/5-SjaFFCIzY/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Here, There, And Everywhere (Beatles Cover) #beatles #guitar #guitarcover #acoustic #acousticcover</p>
+          <p class="card-channel">Strummin&#x27; Steve</p>
+          <p class="card-date">2026-11-16 04:54</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=nLVsFyVPDrw" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/nLVsFyVPDrw/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Mehbooba Deewana – Soulful Acoustic Guitar Cover 🎸✨ #music #song #shorts #guitar</p>
+          <p class="card-channel">EKA..052</p>
+          <p class="card-date">2026-11-16 04:47</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=2CSMGgu5vpU" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/2CSMGgu5vpU/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Itna Na Mujhse Tu Pyar Badha | Guitar Cover</p>
+          <p class="card-channel">Tooconnect</p>
+          <p class="card-date">2026-11-16 04:17</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=yYUr0BsWoiw" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/yYUr0BsWoiw/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Guitar Mini vlog 🧿😘#AcousticGuitar #MusicLover #GuitarJourney #MiniVlog #AestheticVlog</p>
+          <p class="card-channel">Thinkwithkhushi</p>
+          <p class="card-date">2026-11-16 04:04</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=x1_IN-q30sU" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/x1_IN-q30sU/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">🎸 Jeena Jeena – Acoustic Guitar Cover ❤️ | Soulful Guitar Melody ✨ #JeenaJeena</p>
+          <p class="card-channel">-:Rahul 01:-</p>
+          <p class="card-date">2026-11-16 04:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=pEx5OpzOdOw" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/pEx5OpzOdOw/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Kevin Kaarl – Colapso | Acoustic Guitar Cover 🎸</p>
+          <p class="card-channel">SPIDER PUNK</p>
+          <p class="card-date">2026-11-16 04:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=cQllnz32HNc" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/cQllnz32HNc/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">The moment Sai vs Toya Meijin meets acoustic guitar... 🥺♟️ (Part 1 Tabs) #anime  #guitar</p>
+          <p class="card-channel">Guitar KK</p>
+          <p class="card-date">2026-11-16 04:00</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=GlItA9sJLEE" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/GlItA9sJLEE/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">You&amp;#39;ve Got a Friend in Me #guitar #music #cover #acousticguitar #acoustic #guitarcover</p>
+          <p class="card-channel">Evan Owens </p>
+          <p class="card-date">2026-11-16 03:48</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=Uxv9ZhAnvko" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/Uxv9ZhAnvko/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Pirates of the Caribbean Theme - Acoustic Guitar Cover by Chondroma official</p>
+          <p class="card-channel">Chondroma official</p>
+          <p class="card-date">2026-11-16 03:42</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=XrCAiTSHsHU" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/XrCAiTSHsHU/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Golden Brown en el piano 🎹✨ | #acoustic #emmamyers #music #viral #musica #guitar #cover</p>
+          <p class="card-channel">Alee Official ( COVERS )</p>
+          <p class="card-date">2026-11-16 03:41</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=5v6pcqStGjI" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/5v6pcqStGjI/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Hurting Each Other - Carpenters　(Guitar Cover)</p>
+          <p class="card-channel">ぐれのまったりソロギター</p>
+          <p class="card-date">2026-11-16 03:40</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=Kkz4Rh5WIYM" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/Kkz4Rh5WIYM/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Ei Aashiqui ❤️ | Bengali Romantic Song Guitar Cover | Acoustic Version | S Guitar</p>
+          <p class="card-channel">S Guitar</p>
+          <p class="card-date">2026-11-16 03:36</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=WPkg1IdLjgc" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/WPkg1IdLjgc/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Tears in heaven guitar cover #guitarcover #acousticguitar #shorts #fyp ￼</p>
+          <p class="card-channel">NOCTECHO</p>
+          <p class="card-date">2026-11-16 03:32</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=54264tR5xrM" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/54264tR5xrM/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">ANG SARAP PAKINGGAN! 🎸❤️ Acoustic Guitar Cover na Nakaka-LSS | Relaxing Live Performance 👏👏</p>
+          <p class="card-channel">JPR VIRAL TV</p>
+          <p class="card-date">2026-11-16 03:30</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=s_mAu5KtDsQ" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/s_mAu5KtDsQ/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Father And Son – Cat Stevens | Acoustic Guitar Cover &amp;amp; Lesson | Kirby Covers</p>
+          <p class="card-channel">kirbyscovers</p>
+          <p class="card-date">2026-11-16 03:28</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=vsiXt56yOTA" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/vsiXt56yOTA/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">🎸 A Peaceful Acoustic Guitar Session in the Garden</p>
+          <p class="card-channel">Kalicharan Blogs</p>
+          <p class="card-date">2026-11-16 03:17</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=XYpld2Ujia8" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/XYpld2Ujia8/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">Lounge Act - Nirvana (Acoustic Guitar Cover)🎸</p>
+          <p class="card-channel">LoNeWolFTube</p>
+          <p class="card-date">2026-11-16 03:06</p>
+        </div>
+      </a>
+      <a class="card" href="https://www.youtube.com/watch?v=Fowlu7KxPYI" target="_blank" rel="noopener">
+        <img class="thumb" src="https://i.ytimg.com/vi/Fowlu7KxPYI/mqdefault.jpg" alt="" loading="lazy">
+        <div class="card-body">
+          <p class="card-title">&amp;quot;Running Down A Dream&amp;quot;, Tom Petty        Acoustic Guitar Cover           #acousticcover #learnguitar</p>
+          <p class="card-channel">Gary Wahlgren</p>
+          <p class="card-date">2026-11-16 03:00</p>
+        </div>
+      </a>
+    </div>
+    <footer>ギターアレンジ・トラッカー ・ 自動生成 2026-11-16</footer>
+  </div>
+</body>
+</html>
