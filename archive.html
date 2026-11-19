@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ギターアレンジ・トラッカー アーカイブ</title>
-  <style>
-:root{
-  --bg:#faf8f5; --card:#ffffff; --accent:#b5713f; --accent-dark:#9a5e31;
-  --text:#3a3027; --muted:#8a7c6d; --border:#ece5db;
-}
-*{box-sizing:border-box;}
-body{margin:0;background:var(--bg);color:var(--text);
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Hiragino Kaku Gothic ProN","Noto Sans JP",Meiryo,sans-serif;
-  line-height:1.6;}
-.wrap{max-width:1100px;margin:0 auto;padding:16px;}
-.backlink{display:inline-block;margin:8px 0 4px;color:var(--accent);text-decoration:none;font-size:.95rem;}
-.backlink:hover{text-decoration:underline;}
-header h1{margin:.2em 0 .1em;font-size:1.9rem;color:var(--accent-dark);}
-.meta{color:var(--muted);font-size:.95rem;margin-bottom:1.2em;}
-.section-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;
-  border-bottom:2px solid var(--border);padding-bottom:8px;margin:1.6em 0 1em;}
-.section-head h2{margin:0;font-size:1.35rem;color:var(--accent-dark);}
-.playall{background:var(--accent);color:#fff;text-decoration:none;padding:8px 14px;border-radius:999px;
-  font-size:.9rem;font-weight:600;white-space:nowrap;transition:background .15s;}
-.playall:hover{background:var(--accent-dark);}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;}
-.card{display:block;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;
-  text-decoration:none;color:inherit;transition:transform .15s ease,box-shadow .15s ease;}
-.card:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(140,100,60,.18);}
-.thumb{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#eee;}
-.card-body{padding:10px 12px 14px;}
-.card-title{font-size:.98rem;font-weight:600;margin:0 0 6px;
-  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
-.card-channel{color:var(--accent);font-size:.85rem;margin:0 0 2px;}
-.card-date{color:var(--muted);font-size:.8rem;margin:0;}
-.empty{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;color:var(--muted);text-align:center;}
-footer{margin:2.5em 0 1em;color:var(--muted);font-size:.8rem;text-align:center;}
-.archive-list{list-style:none;padding:0;}
-.archive-list li{background:var(--card);border:1px solid var(--border);border-radius:10px;margin-bottom:10px;}
-.archive-list a{display:block;padding:14px 18px;color:var(--accent-dark);text-decoration:none;font-weight:600;font-size:1.05rem;}
-.archive-list a:hover{background:#f3ece2;}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ギターアレンジ・トラッカー アーカイブ</title>
+<style>
+    :root{
+      --bg:#faf8f5; --card:#ffffff; --accent:#b5713f; --accent-dark:#8f5832;
+      --text:#3a3226; --muted:#8a8275; --border:#ece4d9;
+    }
+    *{box-sizing:border-box;}
+    body{margin:0;background:var(--bg);color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+      line-height:1.6;}
+    .wrap{max-width:1100px;margin:0 auto;padding:16px;}
+    .back{display:inline-block;margin:8px 0 4px;color:var(--accent);text-decoration:none;font-size:.95rem;}
+    .back:hover{text-decoration:underline;}
+    header.page{padding:20px 0 8px;border-bottom:2px solid var(--border);margin-bottom:24px;}
+    header.page h1{margin:4px 0 8px;font-size:1.9rem;color:var(--accent-dark);}
+    .meta{color:var(--muted);font-size:.95rem;}
+    section.sec{margin-bottom:40px;}
+    .sec-head{display:flex;align-items:center;flex-wrap:wrap;gap:12px;
+      border-left:5px solid var(--accent);padding-left:12px;margin-bottom:18px;}
+    .sec-head h2{margin:0;font-size:1.35rem;color:var(--accent-dark);}
+    .sec-count{color:var(--muted);font-size:.9rem;}
+    .playall{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
+      padding:7px 14px;border-radius:999px;font-size:.88rem;font-weight:600;
+      transition:background .15s ease;}
+    .playall:hover{background:var(--accent-dark);}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px;}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;
+      text-decoration:none;color:inherit;display:flex;flex-direction:column;
+      box-shadow:0 1px 3px rgba(90,70,45,.06);
+      transition:transform .18s ease,box-shadow .18s ease;}
+    .card:hover{transform:translateY(-5px);box-shadow:0 10px 24px rgba(90,70,45,.16);}
+    .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;background:#ece4d9;display:block;}
+    .card-body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;}
+    .card-title{font-size:.98rem;font-weight:600;line-height:1.4;
+      display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+    .card-channel{font-size:.86rem;color:var(--accent-dark);}
+    .card-date{font-size:.8rem;color:var(--muted);}
+    .empty{background:var(--card);border:1px dashed var(--border);border-radius:12px;
+      padding:28px;text-align:center;color:var(--muted);}
+    footer.page{margin:30px 0 16px;color:var(--muted);font-size:.82rem;text-align:center;
+      border-top:1px solid var(--border);padding-top:16px;}
+    @media (max-width:520px){header.page h1{font-size:1.5rem;}.grid{gap:14px;}}
+
+    .archive-list{list-style:none;padding:0;margin:0;display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;}
+    .archive-list li a{display:block;background:var(--card);border:1px solid var(--border);
+      border-radius:10px;padding:16px 18px;text-decoration:none;color:var(--accent-dark);
+      font-weight:600;font-size:1.02rem;box-shadow:0 1px 3px rgba(90,70,45,.06);
+      transition:transform .15s ease,box-shadow .15s ease;}
+    .archive-list li a:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(90,70,45,.15);}
 </style>
 </head>
 <body>
-  <div class="wrap">
-    <a class="backlink" href="index.html">← 最新ページへ</a>
-    <header>
-      <h1>ギターアレンジ・トラッカー アーカイブ</h1>
-      <p class="meta">過去のアーカイブ一覧 ・ 全 108 日分</p>
-    </header>
+<div class="wrap">
+  <a class="back" href="index.html">← 最新版へ</a>
+  <header class="page">
+    <h1>ギターアレンジ・トラッカー アーカイブ</h1>
+    <div class="meta">過去の収集結果一覧 ・ 全109件</div>
+  </header>
+  <section class="sec">
     <ul class="archive-list">
+      <li><a href="archive/2026-11-19.html">2026-11-19</a></li>
       <li><a href="archive/2026-11-18.html">2026-11-18</a></li>
       <li><a href="archive/2026-11-16.html">2026-11-16</a></li>
       <li><a href="archive/2026-11-15.html">2026-11-15</a></li>
@@ -159,7 +174,10 @@ footer{margin:2.5em 0 1em;color:var(--muted);font-size:.8rem;text-align:center;}
       <li><a href="archive/2026-06-30.html">2026-06-30</a></li>
       <li><a href="archive/2026-06-29.html">2026-06-29</a></li>
     </ul>
-    <footer>ギターアレンジ・トラッカー ・ 自動生成 2026-11-18</footer>
-  </div>
+  </section>
+  <footer class="page">
+    YouTube Data API による自動収集
+  </footer>
+</div>
 </body>
 </html>
