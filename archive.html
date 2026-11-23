@@ -45,14 +45,14 @@
     footer.page{margin:30px 0 16px;color:var(--muted);font-size:.82rem;text-align:center;
       border-top:1px solid var(--border);padding-top:16px;}
     @media (max-width:520px){header.page h1{font-size:1.5rem;}.grid{gap:14px;}}
-
-    .archive-list{list-style:none;padding:0;margin:0;display:grid;
-      grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;}
-    .archive-list li a{display:block;background:var(--card);border:1px solid var(--border);
-      border-radius:10px;padding:16px 18px;text-decoration:none;color:var(--accent-dark);
-      font-weight:600;font-size:1.02rem;box-shadow:0 1px 3px rgba(90,70,45,.06);
-      transition:transform .15s ease,box-shadow .15s ease;}
-    .archive-list li a:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(90,70,45,.15);}
+    ul.arch{list-style:none;padding:0;margin:0;display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;}
+    ul.arch li a{display:block;background:var(--card);border:1px solid var(--border);
+      border-radius:10px;padding:14px 16px;text-decoration:none;color:var(--accent-dark);
+      font-weight:600;text-align:center;
+      box-shadow:0 1px 3px rgba(90,70,45,.06);
+      transition:transform .18s ease,box-shadow .18s ease;}
+    ul.arch li a:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(90,70,45,.16);}
 </style>
 </head>
 <body>
@@ -60,10 +60,11 @@
   <a class="back" href="index.html">← 最新版へ</a>
   <header class="page">
     <h1>ギターアレンジ・トラッカー アーカイブ</h1>
-    <div class="meta">過去の収集結果一覧 ・ 全112件</div>
+    <div class="meta">過去のアーカイブ一覧（全113件）</div>
   </header>
   <section class="sec">
-    <ul class="archive-list">
+    <ul class="arch">
+      <li><a href="archive/2026-11-23.html">2026-11-23</a></li>
       <li><a href="archive/2026-11-22.html">2026-11-22</a></li>
       <li><a href="archive/2026-11-21.html">2026-11-21</a></li>
       <li><a href="archive/2026-11-20.html">2026-11-20</a></li>
@@ -178,6 +179,9 @@
       <li><a href="archive/2026-06-29.html">2026-06-29</a></li>
     </ul>
   </section>
+  <footer class="page">
+    YouTube Data API v3 ／ 自動生成
+  </footer>
 </div>
 </body>
 </html>
